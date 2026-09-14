@@ -20,3 +20,4 @@ any copy that sounds like generic AI writing; make sure yours doesn't (bonus poi
 you spend some time reading our blog and write in the "Convex voice").
 
 Have fun!
+# convex-upsell-dashboard
