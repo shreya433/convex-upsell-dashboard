@@ -4,7 +4,7 @@ A data-driven upsell motion for Convex, built for the GTM Engineer take-home cha
 
 ## The problem I noticed
 
-Looking at the pricing docs first, it was clear that "upsell" at Convex isn't one thing — the plans have completely different resource ceilings (1M vs 25M function calls/month, S16 vs S256 deployment classes, a $2,500/month floor for Business). That meant an account could be a good upgrade candidate for very different reasons, and I didn't want to collapse those reasons into a single number.
+Looking at the pricing docs first, it was clear that "upsell" at Convex isn't one thing: the plans have completely different resource ceilings (1M vs 25M function calls/month, S16 vs S256 deployment classes, a $2,500/month floor for Business). That meant an account could be a good upgrade candidate for very different reasons, and I didn't want to collapse those reasons into a single number.
 
 Once I got into the actual usage data, that suspicion held up. There were teams quietly bleeding money on Starter's pay-as-you-go overage rates when a flat Professional seat would've been cheaper. And separately, there were teams whose bill looked completely normal but were running 10-15x past their deployment class's concurrency limit — a problem billing data alone would never surface.
 
@@ -38,4 +38,4 @@ A Convex app (`gtm-upsell-dashboard/`) that:
 
 ## Stack
 
-Convex (schema, queries, mutations) + React + TypeScript + Vite. No external charting library — the bar charts and donuts are hand-built SVG, kept simple on purpose.
+Convex (schema, queries, mutations) + React + TypeScript + Vite. No external charting library. The bar charts and donuts are hand-built SVG, kept simple on purpose.
