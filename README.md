@@ -39,3 +39,18 @@ A Convex app (`gtm-upsell-dashboard/`) that:
 ## Stack
 
 Convex (schema, queries, mutations) + React + TypeScript + Vite. No external charting library. The bar charts and donuts are hand-built SVG, kept simple on purpose.
+
+## Running it locally
+
+```bash
+cd gtm-upsell-dashboard
+npm install
+npx convex dev
+```
+Leave that terminal running — it syncs your local code to a live Convex backend and will prompt you to log in via GitHub the first time.
+
+In a second terminal:
+```bash
+npm run dev
+```
+Open the printed `localhost` URL. If the candidates table is empty on first load, click "Seed data" — this loads the 19 flagged accounts computed from the EDA above.
