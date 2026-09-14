@@ -1,6 +1,6 @@
-# Convex Upsell Candidates
+# Convex: Upsell Candidates
 
-A data-driven upsell motion for Convex, built for the GTM Engineer take-home challenge.
+A data-driven upsell motion for Convex, built for the GTM Engineer take-home challenge. By Shreya Ramesh.
 
 ## The problem I noticed
 
